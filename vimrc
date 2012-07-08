@@ -1,12 +1,6 @@
-set nocompatible
-
-" ================ Plugins (by Vundle) ====================
-
-filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle, required
-Bundle 'gmarik/vundle'
-
-filetype plugin indent on  " Automatically detect file types. (must turn on after Vundle)
+source ~/.vim/bundles.vim   " Load plugins
+source ~/.vim/global.vim    " Load global settings
+source ~/.vim/plugins.vim   " Configure plugins
+source ~/.vim/macros.vim    " Define macros
+" after.vim is loaded from ./after/plugin/after.vim
+" bindings.vim and local.vim is loaded from after.vim

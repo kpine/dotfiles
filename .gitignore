@@ -1,3 +1,6 @@
 bundle/
 *.swp
 .DS_Store
+backup/
+tmp/
+undo/
