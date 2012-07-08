@@ -37,7 +37,7 @@ set hidden              " Change buffers w/o saving
 set history=256         " Number of things to remember in cmdline history
 set clipboard+=unnamed  " Yanks goto clipboard instead
 set autowriteall        " Writes on make/shell commands
-set timeoutlen=250      " Time to wait for a command (e.g. after leader)
+set timeoutlen=500      " Time to wait for a command (e.g. after leader)
 set foldlevelstart=99   " Remove folds
 set formatoptions=crql
 set splitbelow          " New splits goto bottom of current window
