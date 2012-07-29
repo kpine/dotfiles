@@ -1,7 +1,3 @@
-" Change leader to a comma because the backslash is too far away
-" That means all \x commands turn into ,x
-let mapleader=","
-
 " ==============================
 " Movement
 " ==============================
@@ -13,9 +9,6 @@ imap <C-a> <C-o>I
 " tab is easier to jump between matching bracket pairs
 nnoremap <tab> %
 vnoremap <tab> %
-
-" Go to last edit location with ,.
-nnoremap ,. '.
 
 " center display after searching
 nnoremap n   nzz

@@ -2,6 +2,10 @@
 set nocompatible
 filetype plugin indent on
 
+" Change leader to a comma because the backslash is too far away
+" That means all \x commands turn into ,x
+let mapleader=","
+
 " Color
 set background=dark
 let g:solarized_visibility = "high"
